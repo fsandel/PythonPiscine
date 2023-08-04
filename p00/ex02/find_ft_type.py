@@ -12,13 +12,3 @@ def all_thing_is_obj(object: any) -> int:
     else:
         print ('Type not found')
     return 42
-
-
-# $>python tester.py | cat -e
-# List : <class 'list'>$
-# Tuple : <class 'tuple'>$
-# Set : <class 'set'>$
-# Dict : <class 'dict'>$
-# Brian is in the kitchen : <class 'str'>$
-# Type not found$
-# 42$
